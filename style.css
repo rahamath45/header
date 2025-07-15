@@ -88,7 +88,6 @@ button{
 .below{
   width:841px;
   height: 120px;
-  border: 2px solid black;
 }
 .left{
   width:521px ;
@@ -107,7 +106,6 @@ button{
 .right{
   width:785px ;
   height: 585px;
-  border: 2px solid black;
   margin:7px;
   display: flex;
  justify-content: center;
@@ -460,7 +458,7 @@ top:16px;
   font-size: 13px;
   font-weight:350 ;
   font-style: normal;
-   padding: 0px 0px 0px 10px;
+   padding: 0px 0px 10px 11px;
    margin-left: 20px;
 }
 .noses{
@@ -595,7 +593,7 @@ margin-top: 109.99px;
   font-family: "Volkhov", serif;
   font-weight: 300;
   font-style: normal;
-  font-size: 30px;
+  font-size: 40px;
   color: #222222;
   padding: 15px 0px 15px 30px;
 }
@@ -604,7 +602,8 @@ margin-top: 109.99px;
    font-family: "Volkhov", serif;
   font-weight: 300;
   font-style: normal;
-  font-size: 30px;
+  font-size: 40px;
+  padding: 0px 0px 15px 10px;
 }
 .man{
   width: 68px;
@@ -659,4 +658,50 @@ position: relative;
   font-style: normal;
   top:50px;
 }
-
+.mela{
+  width: 646px;
+  height:53.52px ;
+  margin-bottom: 80px;
+}
+.kila{
+  width: 1130px;
+  height:388px ;
+  display: flex;
+  flex-direction: row;
+}
+.page4{
+   width: 1250px;
+  height:720px ;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FEFCFB;
+  flex-direction: column;
+}
+.ulla{
+   width: 270px;
+  height:384.58px ;
+  display: flex;
+  flex-direction: column;
+  margin:7px;
+}
+.onnu{
+   width: 270px;
+  height:267.62px;
+}
+.nee{
+   font-family: "poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+  color: #222222;
+  padding: 10px;
+}
+.naa{
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  font-weight:200 ;
+  font-style: normal;
+  padding: 10px;
+}
