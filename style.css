@@ -705,3 +705,75 @@ position: relative;
   font-style: normal;
   padding: 10px;
 }
+.apple{
+  width: 1250px;
+  height:500px ;
+  border: 2px solid black;
+  background-color: #F7F8FC;
+  position: relative;
+  top:220px;
+  display: flex;
+  justify-content: center; 
+}
+.pear{
+   width:850px;
+  height:300px ;
+  position: relative;
+  bottom:220px;
+  background-color: #FA7436;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+.page5{
+  width: 1250px;
+  height:720px ;
+  border: 2px solid black;
+  background-color: #FEFCFB;
+display: flex;
+}
+.edit{
+  width: 600px;
+  height:240px ;
+  position: absolute;
+}
+.two{
+  position: relative;
+  bottom:80px;
+  left:370px;
+}
+.three{
+   width: 260px;
+  height:200px ;
+  position: absolute;
+  left:1px;
+  top:97px;
+}
+.str{
+width: 100%;
+height:auto;
+}
+.sub{
+  font-family: "Volkhov", serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 37px;
+  color: #FFFFFF;
+  padding-left: 40px;
+}
+.mul{
+  padding-left: 140px;
+}
+.add{
+  width:540px;
+  height: 65px;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.div{
+  width: 100%;
+  height: auto;
+  position: absolute;
+  z-index: 2;
+}
+
