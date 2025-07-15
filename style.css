@@ -71,7 +71,6 @@ button{
 .page2{
   width: 1250px;
   height:720px ;
-  border: 2px solid black;
   background-color: #F7F8FC; 
   display: flex;
   justify-content: center;
@@ -92,7 +91,6 @@ button{
 .left{
   width:521px ;
   height: 486px;
-  border: 2px solid black;
   margin:4px;
 }
 .top-content{
@@ -132,20 +130,17 @@ bottom:350px;
   font-size: 50px;
   width: 520px;
   height: 210px;
-  border: 1px solid black;
   color: #222222;
   padding:15px;
 }
 .second{
    width: 520px;
   height: 150px;
-  border: 1px solid black;
   padding:15px;
 }
 .third{
   width: 520px;
   height: 120px;
-  border: 1px solid black;
 }
 .color{
   color:#fd8d3a;
@@ -169,7 +164,6 @@ margin: 10px;
 .under{
   width: 850px;
   height:63px ;
-  border: 1px solid #fd8d3a;
   margin: 10px;
   display: flex;
   gap:6rem
@@ -388,7 +382,6 @@ z-index: 50;
 .page3{
   width: 1250px;
   height:720px ;
-  border: 2px solid black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -672,7 +665,6 @@ position: relative;
 .page4{
    width: 1250px;
   height:720px ;
-  border: 2px solid black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -708,12 +700,13 @@ position: relative;
 .apple{
   width: 1250px;
   height:500px ;
-  border: 2px solid black;
   background-color: #F7F8FC;
   position: relative;
   top:220px;
   display: flex;
   justify-content: center; 
+  flex-direction:row;
+
 }
 .pear{
    width:850px;
@@ -728,7 +721,6 @@ position: relative;
 .page5{
   width: 1250px;
   height:720px ;
-  border: 2px solid black;
   background-color: #FEFCFB;
 display: flex;
 }
@@ -776,4 +768,50 @@ height:auto;
   position: absolute;
   z-index: 2;
 }
-
+.last{
+  width: 254px;
+  height: 176px;
+  position: absolute;
+  margin-top: 170px;
+  left:200px;
+}
+.late{
+  width: 500px;
+  height: 210px;
+  position: absolute;
+  margin-top: 170px;
+  right:150px ;
+}
+.hr{
+  display: flex;
+  flex-direction: column;
+}
+.ohh{
+  padding: 20px;
+}
+.pot{
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  font-weight:350 ;
+  font-style: normal;
+  padding-left: 20px;
+}
+.pots{
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  font-weight:350 ;
+  font-style: normal;
+  padding-top: 9px;
+  padding-left: 16px;
+}
+.okk{
+   font-family: "poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  color: #222222;
+padding-left: 90px;
+}
+.ok{
+  padding-left: 150px;
+}
